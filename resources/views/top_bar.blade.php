@@ -1,11 +1,10 @@
 <div class="row mb-3 align-items-center">
     <div class="col">
         <a href="{{ route('home') }}">
-            <img src="{{ asset('assets/images/logo.png') }}" alt="Notes logo">
+            <h2>Notas pessoais</h2>
         </a>
     </div>
     <div class="col text-center">
-        A simple <span class="text-warning">Laravel</span> project!
     </div>
     <div class="col">
         <div class="d-flex justify-content-end align-items-center">

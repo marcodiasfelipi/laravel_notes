@@ -6,7 +6,6 @@
 
                 @include('top_bar')
 
-                <!-- no notes available -->
                 @if(count($notes) == 0)
 
                 <div class="row mt-5">
