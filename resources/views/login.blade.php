@@ -34,7 +34,7 @@
                                 </div>
                             </form>
 
-                            {{-- invalid login --}}
+                            
                             @if(session('loginError'))
                                 <div class="alert alert-danger text-center">
                                     {{ session('loginError') }}

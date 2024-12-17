@@ -11,3 +11,4 @@ class User extends Model
     }
 }
 
+//USER TEM VÁRIAS NOTAS
