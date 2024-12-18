@@ -14,7 +14,7 @@
                             <form action="/loginSubmit" method="post" novalidate> <!-- novalidate desativa os required do html -->
                                 @csrf
                                 <div class="mb-3">
-                                    <label for="text_username" class="form-label">Username</label>
+                                    <label for="text_username" class="form-label">Usuário</label>
                                     <input type="email" class="form-control bg-dark text-info" name="text_username" value="{{ old('text_username') }}" required>
                                     {{-- show error --}}
                                     @error('text_username')
@@ -22,7 +22,7 @@
                                     @enderror
                                 </div>
                                 <div class="mb-3">
-                                    <label for="text_password" class="form-label">Password</label>
+                                    <label for="text_password" class="form-label">Senha</label>
                                     <input type="password" class="form-control bg-dark text-info" name="text_password" value="{{ old('text_password') }}" required>
                                     {{-- show error --}}
                                     @error('text_password')
